@@ -29,17 +29,7 @@ body {
 	height: 494px;
 	background-repeat: no-repeat;
 }
-.fire{
-	background-image: url(../images/hadouken.gif);
-	width: 156px;
-	height: 90px;
-	float: left;
-	position: absolute;
-	z-index: 10;
-	top: 45px;
-	left: 600px;
-	float: left;
-}
+
 .conor-strike,
 .conor-ready,
 .fire {
@@ -53,4 +43,15 @@ body {
 }
 .conor-strike{
 	background-image: url(../images/conor-strike.gif);
+}
+.fire{
+	background-image: url(../images/hadouken.gif);
+	width: 156px;
+	height: 90px;
+	float: left;
+	position: absolute;
+	z-index: 10;
+	top: 45px;
+	left: 600px;
+	float: left;
 }
