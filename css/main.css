@@ -5,8 +5,8 @@ body {
 	background-color: black;
 }
 .main {
-	background-image: url(../images/background2.jpg);
-	background-size: 25%;
+	background-image: url(../images/background.jpg);
+	background-size: 100%;
 	background-position: 50%;
 	background-repeat: no-repeat;
 	margin-top: 110px;
