@@ -10,13 +10,13 @@ $(document).ready(function() {
 		$(".conor-ready").hide();
 		})
 	.mousedown(function() {
-		// play fire sound 
+		playFire(); 
 		console.log("mouse clicked");
 		$(".conor-ready").hide();
 		$(".conor-strike").show();
 		$(".fire").finish().show()
 		.animate(
-			{"left": "1100px"},
+			{"left": "1200px"},
 			500,
 			function() {
 				$(this).hide();
@@ -31,3 +31,8 @@ $(document).ready(function() {
 
 
 	});
+function playFire() {
+	$("#fire-sound")[0].volume = .5;
+	$("#fire-sound")[0].load();
+	$("#fire-sound")[0].play();
+}
