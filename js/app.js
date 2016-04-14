@@ -29,8 +29,8 @@ $(document).ready(function() {
 		$(".conor-ready").show();
 		});
 
-
 	});
+	
 function playFire() {
 	$("#fire-sound")[0].volume = .5;
 	$("#fire-sound")[0].load();

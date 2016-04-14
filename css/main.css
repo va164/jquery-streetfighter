@@ -24,6 +24,7 @@ body {
 .conor-still,
 .conor-ready,
 .conor-strike,
+.conor-taunt,
 .fire {
 	width: 659px;
 	height: 494px;
@@ -43,6 +44,7 @@ body {
 
 .conor-strike,
 .conor-ready,
+.conor-taunt,
 .fire {
 	display: none;
 }
@@ -54,4 +56,7 @@ body {
 }
 .conor-strike{
 	background-image: url(../images/conor-strike.gif);
+}
+.conor-taunt{
+	background-image: url(../images/conor-taunt.gif);
 }
