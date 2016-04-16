@@ -1,9 +1,12 @@
 /* *{
 	outline: red 1px solid;
 } */
+
 body {
 	background-color: black;
+
 }
+
 .main {
 	background-image: url(../images/background.jpg);
 	background-size: 100%;
@@ -16,10 +19,13 @@ body {
 	position: relative;
 	z-index: 1;
 }
+
 .conor{
 	float: left;
 	width: 659px;
 	height: 494px;
+	overflow: hidden;
+
 }
 .conor-still,
 .conor-ready,
@@ -50,13 +56,34 @@ body {
 }
 .conor-still {
 	background-image: url(../images/conor-stance.gif);
+
 }
 .conor-ready {
 	background-image: url(../images/conor-ready.gif);
+
 }
 .conor-strike{
 	background-image: url(../images/conor-strike.gif);
+
 }
 .conor-taunt{
-	background-image: url(../images/conor-taunt.gif);
+	background-image: url(../images/conor-taunt2.gif);
+
+}
+
+.instructions  {
+	float: right;
+	margin-top: 5%;
+	margin-right: 10%;
+	font-family: "verdana";
+	font-variant: small-caps;
+	letter-spacing: .1em;
+	font-size: 2rem;
+	color: #06040A;
+
+
+}
+
+.main{
+	overflow: hidden;
 }
